@@ -1,13 +1,12 @@
 [project]
 name = "hf-watch"
 version = "1.0.0"
-description = "HF propagation monitor CLI using solar indices"
-authors = [
-    {name="Gdev45"}
-]
+description = "HF propagation conditions CLI"
 requires-python = ">=3.9"
+
 dependencies = [
-    "requests"
+    "requests",
+    "rich"
 ]
 
 [project.scripts]
